@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', init);
 
 function init() {
 	document.getElementById('nfc_check').addEventListener('click', nfc_check_click);
+	Android.jsAppVersion('v1.0.0');
 }
 
 function nfc_check_click(){
