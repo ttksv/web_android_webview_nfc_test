@@ -12,6 +12,12 @@ function nfc_check_click(){
 	console.log(res);
 	msg_text.textContent = res;
 }
+function nfc_stop_click(){
+	const msg_text = document.getElementById('msg_text');
+	const res = Android.stopNFC();
+	console.log(res);
+	msg_text.textContent = res;
+}
 function showIDm(idm){
 	const msg_text = document.getElementById('msg_text');
 	msg_text.textContent = idm;
