@@ -11,3 +11,7 @@ function nfc_check_click(){
 	console.log(res);
 	msg_text.textContent = res;
 }
+function showIDm(idm){
+	const msg_text = document.getElementById('msg_text');
+	msg_text.textContent = idm;
+}
